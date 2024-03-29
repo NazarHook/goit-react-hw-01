@@ -1,0 +1,23 @@
+.liItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+}
+.name{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.general{
+    font-size: small;
+}
+.online{
+    color: green;
+}
+.offline{
+    color: red;
+}
