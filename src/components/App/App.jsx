@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from '../../assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.module..css'
-import userData from '../../userData.json'
+import { useState } from "react";
+import reactLogo from "../../assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.module..css";
+import userData from "../../userData.json";
 import Profile from "../Profile/Profile";
-import FriendList from '../FriendList/FriendList'
-import TransactionHistory from '../TransactionHistory/TransactionHistory'
-import friends from '../../friends.json'
-import transactions from '../../transactions.json'
+import FriendList from "../FriendList/FriendList";
+import TransactionHistory from "../TransactionHistory/TransactionHistory";
+import friends from "../../friends.json";
+import transactions from "../../transactions.json";
 // console.log(friends);
-export default function App () {
+export default function App() {
   return (
     <>
       <Profile
@@ -23,5 +23,4 @@ export default function App () {
       <TransactionHistory items={transactions} />
     </>
   );
-};
-
+}
